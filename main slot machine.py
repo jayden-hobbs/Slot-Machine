@@ -49,6 +49,6 @@ position3 = Picture(slot_box, image=symbols[2], grid=[2, 0])
 
 spin_button = PushButton(app, text="SPIN", command=spin, grid=[1, 1], width=10, align="top")
 
-bottom_text = Text(app, text="", align="top", height=2)  # Adjust the height to add space below the spin button
+bottom_text = Text(app, text="", align="top", height=2)
 
 app.display()
